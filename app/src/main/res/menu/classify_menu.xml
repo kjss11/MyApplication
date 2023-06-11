@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/cf1"
+        android:title="国际新闻"/>
+    <item
+        android:id="@+id/cf2"
+        android:title="国际娱乐新闻"/>
+    <item
+        android:id="@+id/cf3"
+        android:title="国内新闻"/>
+    <item
+        android:id="@+id/cf4"
+        android:title="国内娱乐新闻"/>
+    <item
+        android:id="@+id/cf5"
+        android:title="科技新闻"/>
+    <item
+        android:id="@+id/cf6"
+        android:title="汽车新闻"/>
+    <item
+        android:id="@+id/cf7"
+        android:title="体育新闻"/>
+    <item
+        android:id="@+id/cf8"
+        android:title="游戏新闻"/>
+</menu>

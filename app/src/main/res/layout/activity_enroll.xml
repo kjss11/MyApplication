@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".enroll_Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/enroll"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/account_enroll"
+        app:layout_constraintEnd_toEndOf="@+id/account_enroll"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/account_enroll" />
+
+    <EditText
+        android:id="@+id/password_enroll"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="@string/password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/password2_enroll"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="14dp"
+        android:hint="@string/password2"
+        app:layout_constraintEnd_toEndOf="@+id/password_enroll"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/password_enroll"
+        app:layout_constraintTop_toBottomOf="@+id/password_enroll"
+        android:importantForAutofill="no"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/account_enroll"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="14dp"
+        android:hint="@string/account"
+        app:layout_constraintBottom_toTopOf="@+id/password_enroll"
+        app:layout_constraintEnd_toEndOf="@+id/password_enroll"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/password_enroll"
+        android:inputType="text"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/enroll_enroll"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/enroll"
+        app:layout_constraintEnd_toEndOf="@+id/password2_enroll"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/password2_enroll"
+        app:layout_constraintTop_toBottomOf="@+id/password2_enroll"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
